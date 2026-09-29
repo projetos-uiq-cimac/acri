@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Mora — API
 
-Permite consultar os indicadores turísticos do município do Mora incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Mora incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
