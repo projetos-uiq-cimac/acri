@@ -10,7 +10,7 @@ https://{{api.plataforma-cimac.pt}}/{{v1}}
 
 ## Documentação
 
-A descrição completa dos endpoints, parâmetros, respostas e erros está na especificação OpenAPI:
+A descrição técnica completa da API está em:
 
 - **Swagger UI:** `https://{{…}}/docs`
 - **Especificação OpenAPI:** `https://{{…}}/openapi.json`
