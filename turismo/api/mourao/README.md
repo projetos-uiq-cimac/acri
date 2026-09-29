@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Mourão — API
 
-Permite consultar os indicadores turísticos do município do Mourão incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Mourão incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
