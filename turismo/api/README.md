@@ -20,12 +20,16 @@ A descrição completa dos endpoints, parâmetros, respostas e erros está na es
 
 A API usa **OAuth 2.0 (Client Credentials)** com tokens **JWT**.
 
-1. Peça um token ao endpoint `POST https://api.turismo-cimac.pt/integrations/token` com o corpo (body) com a informação das credenciais:
-    1. `grant_type=client_credentials`
-    2. `client_id=<o seu client_id>`
-    3. `client_secret=<o seu client_secret`
-3. Enve o token no cabeçalho (header) dos pedidos: `Authorization: Bearer <token>`.
-4. O token é válido durante 900 segundos. Quando expirar, peça um novo.
+1. Peça um token ao endpoint `POST https://api.turismo-cimac.pt/integrations/token`, por exemplo:
+   > curl -X POST 'https://api.turismo-cimac.pt/integrations/token' \
+   >      --header 'Content-Type: application/x-www-form-urlencoded' \
+   >      --data-urlencode 'grant_type=client_credentials' \
+   >      --data-urlencode 'client_id=\<o seu client_id\>' \
+   >      --data-urlencode 'client_secret=\<o seu client_secret\>'
+2. Envie o token no cabeçalho (header) dos pedidos, por exemplo:
+   > curl -X-GET 'https://api.turismo-cimac.pt/cimac/v1/datasets/guests-monthly?format=ngsi-ld' \
+   >      --header 'Authorization: Bearer \<o seu token\>'
+3. O token é válido durante 900 segundos. Quando expirar, peça um novo.
 
 ## Como obter as credenciais
 
