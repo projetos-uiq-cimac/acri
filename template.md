@@ -10,7 +10,7 @@ https://{{api.plataforma-cimac.pt}}/{{v1}}
 
 ## Documentação
 
-A descrição técnica completa da API está em:
+A descrição técnica da API está disponível em:
 
 - **Swagger UI:** `https://{{…}}/docs`
 - **Especificação OpenAPI:** `https://{{…}}/openapi.json`
