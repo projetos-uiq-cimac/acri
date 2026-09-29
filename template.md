@@ -28,7 +28,7 @@ A API usa **OAuth 2.0 (Client Credentials)** com tokens **JWT**.
 O acesso à API é livre, mas requer um pedido de registo junto da CIMAC para obtenção do `client_id` e do `client_secret`:
 
 1. Envie um email para projetos.uiq@cimac.pt com:
-   - A API que quer utilizar;
+   - A indicação da API que quer utilizar;
    - Nome da entidade ou do requerente;
    - Contactos;
    - Finalidade da utilização (opcional).
