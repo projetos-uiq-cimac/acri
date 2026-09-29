@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Évora — API
 
-Permite consultar os indicadores turísticos do município do Évora incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Évora incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
