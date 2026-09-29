@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Vila Viçosa — API
 
-Permite consultar os indicadores turísticos do município do Vila Viçosa incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Vila Viçosa incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
