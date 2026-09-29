@@ -19,49 +19,23 @@ A descrição completa dos endpoints, parâmetros, respostas e erros está na es
 
 A API usa **OAuth 2.0 (Client Credentials)** com tokens **JWT**.
 
-1. Pedir um token ao endpoint `POST https://{{auth.plataforma-cimac.pt}}/{{oauth2/token}}` com o `client_id` e o `client_secret`.
+1. Pedir um token ao endpoint `POST https://{{auth.plataforma-cimac.pt}}/{{oauth2/token}}` com as credenciais `client_id` e o `client_secret` (ver a seção **Como obter as credenciais**).
 2. Enviar o token em todos os pedidos, no cabeçalho `Authorization: Bearer <token>`.
 3. O token é válido durante {{3600}} segundos. Quando expirar, peça um novo.
 
 ## Como obter as credenciais
 
-O acesso à API é livre, mas requer registo junto da CIMAC.
+O acesso à API é livre, mas requer um pedido de registo junto da CIMAC para obtenção do `client_id` e o `client_secret`:
 
 1. Envie um email para projetos.uqi@cimac.pt com:
-   - nome da entidade ou do requerente;
-   - contacto técnico;
-   - finalidade da utilização (opcional).
-2. A CIMAC envia o `client_id` e o `client_secret` para o contacto indicado.
+   - A API que quer utilizar;
+   - Nome da entidade ou do requerente;
+   - Contactos;
+   - Finalidade da utilização (opcional).
+2. A CIMAC fará o registo e enviará o `client_id` e o `client_secret`.
 
 > O `client_secret` é confidencial. Não o publique em repositórios nem o inclua em código executado no browser ou em aplicações móveis.
 
-## Como obter e utilizar o token
-
-**1. Obter o token**
-
-```bash
-curl -X POST "https://{{auth.plataforma-cimac.pt}}/{{oauth2/token}}" \
-  -H "Content-Type: application/x-www-form-urlencoded" \
-  -d "grant_type=client_credentials" \
-  -d "client_id=$CLIENT_ID" \
-  -d "client_secret=$CLIENT_SECRET"
-```
-
-```json
-{
-  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "token_type": "Bearer",
-  "expires_in": 3600
-}
-```
-
-**2. Utilizar o token num pedido**
-
-```bash
-curl "https://{{api.plataforma-cimac.pt}}/{{v1}}/{{recurso}}" \
-  -H "Authorization: Bearer $ACCESS_TOKEN"
-```
-
 ## Contacto
 
-Questões técnicas: {{email}}
+Questões técnicas: projetos.uqi@cimac.pt
