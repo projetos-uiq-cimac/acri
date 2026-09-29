@@ -2,7 +2,7 @@
 
 {{1–2 frases: o que a API permite fazer. Ex.: "Permite consultar os indicadores de procura turística dos municípios do Alentejo Central."}}
 
-## Endereço da API
+## URL
 
 ```
 https://{{api.plataforma-cimac.pt}}/{{v1}}
@@ -10,7 +10,7 @@ https://{{api.plataforma-cimac.pt}}/{{v1}}
 
 ## Documentação
 
-A descrição técnica da API está disponível em:
+A descrição completa dos endpoints, parâmetros, respostas e erros está na especificação em:
 
 - **Swagger UI:** `https://{{…}}/docs`
 - **Especificação OpenAPI:** `https://{{…}}/openapi.json`
