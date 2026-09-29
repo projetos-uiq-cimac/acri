@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Montemor-o-Novo — API
 
-Permite consultar os indicadores turísticos do município do Montemor-o-Novo incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Montemor-o-Novo incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
