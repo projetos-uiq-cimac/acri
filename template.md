@@ -32,7 +32,7 @@ O acesso à API é livre, mas requer um pedido de registo junto da CIMAC para ob
    - Nome da entidade ou do requerente;
    - Contactos;
    - Finalidade da utilização (opcional).
-2. A CIMAC fará o registo e enviará o `client_id` e o `client_secret`.
+2. A CIMAC fará o registo e enviará o `client_id` e o `client_secret` para os contactos disponibilizados.
 
 > O `client_secret` é confidencial. Não o publique em repositórios nem o inclua em código executado no browser ou em aplicações móveis.
 
