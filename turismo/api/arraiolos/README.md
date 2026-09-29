@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Arraiolos — API
 
-Permite consultar os indicadores turísticos do município do Arraiolos incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Arraiolos incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
