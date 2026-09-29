@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Reguengos de Monsaraz — API
 
-Permite consultar os indicadores turísticos do município do Reguengos de Monsaraz incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Reguengos de Monsaraz incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
