@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Estremoz — API
 
-Permite consultar os indicadores turísticos do município do Estremoz incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Estremoz incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
