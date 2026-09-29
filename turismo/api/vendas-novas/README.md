@@ -2,7 +2,7 @@
 
 # Plataforma de Indicadores de Turismo de Vendas Novas — API
 
-Permite consultar os indicadores turísticos do município do Vendas Novas incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
+Permite consultar os indicadores turísticos do município de Vendas Novas incluindo dormidas, hóspedes, fluxos de visitantes, transações e estabelecimentos.
 
 ## URL
 
