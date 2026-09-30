@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Estremoz incluindo
 ## URL
 
 ```
-https://api.economia-cimac.pt/estremoz
+https://api.turismo-cimac.pt/estremoz
 ```
 
 ## Documentação
