@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Évora incluindo d
 ## URL
 
 ```
-https://api.economia-cimac.pt/evora
+https://api.turismo-cimac.pt/evora
 ```
 
 ## Documentação
