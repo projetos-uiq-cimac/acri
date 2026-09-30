@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Vendas Novas inclu
 ## URL
 
 ```
-https://api.economia-cimac.pt/vendas-novas
+https://api.turismo-cimac.pt/vendas-novas
 ```
 
 ## Documentação
