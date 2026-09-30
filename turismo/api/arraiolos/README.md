@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Arraiolos incluind
 ## URL
 
 ```
-https://api.economia-cimac.pt/arraiolos
+https://api.turismo-cimac.pt/arraiolos
 ```
 
 ## Documentação
