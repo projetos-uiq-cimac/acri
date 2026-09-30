@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Borba incluindo do
 ## URL
 
 ```
-https://api.economia-cimac.pt/borba
+https://api.turismo-cimac.pt/borba
 ```
 
 ## Documentação
