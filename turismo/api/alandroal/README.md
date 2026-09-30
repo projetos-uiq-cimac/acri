@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município do Alandroal incluind
 ## URL
 
 ```
-https://api.economia-cimac.pt/alandroal
+https://api.turismo-cimac.pt/alandroal
 ```
 
 ## Documentação
