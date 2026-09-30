@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Mora incluindo dor
 ## URL
 
 ```
-https://api.economia-cimac.pt/mora
+https://api.turismo-cimac.pt/mora
 ```
 
 ## Documentação
