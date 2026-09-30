@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Vila Viçosa inclu
 ## URL
 
 ```
-https://api.economia-cimac.pt/vila-vicosa
+https://api.turismo-cimac.pt/vila-vicosa
 ```
 
 ## Documentação
