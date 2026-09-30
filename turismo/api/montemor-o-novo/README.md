@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Montemor-o-Novo in
 ## URL
 
 ```
-https://api.economia-cimac.pt/montemor-o-novo
+https://api.turismo-cimac.pt/montemor-o-novo
 ```
 
 ## Documentação
