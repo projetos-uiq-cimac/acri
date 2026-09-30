@@ -34,7 +34,7 @@ A API usa **OAuth 2.0 (Client Credentials)** com tokens **JWT**.
 2. Envie o token no cabeçalho (header) dos pedidos, por exemplo:
 
    ```bash
-   curl -X GET 'https://api.economia-cimac.pt/redondo/v1/datasets/guests-monthly?format=ngsi-ld' \
+   curl -X GET 'https://api.economia-cimac.pt/cimac/v1/datasets/business-overview?format=ngsi-ld' \
         --header 'Authorization: Bearer <o seu token>'
    ```
 3. O token é válido durante 900 segundos. Quando expirar, peça um novo.
