@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Mourão incluindo 
 ## URL
 
 ```
-https://api.economia-cimac.pt/mourao
+https://api.turismo-cimac.pt/mourao
 ```
 
 ## Documentação
