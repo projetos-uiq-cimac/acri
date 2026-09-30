@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município de Reguengos de Monsa
 ## URL
 
 ```
-https://api.economia-cimac.pt/reguengos
+https://api.turismo-cimac.pt/reguengos
 ```
 
 ## Documentação
