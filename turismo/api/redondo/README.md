@@ -7,7 +7,7 @@ Permite consultar os indicadores turísticos do município do Redondo incluindo 
 ## URL
 
 ```
-https://api.economia-cimac.pt/redondo
+https://api.turismo-cimac.pt/redondo
 ```
 
 ## Documentação
